@@ -1,0 +1,30 @@
+{
+  "name": "loja-esportiva-api",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de itens esportivos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node tests/run.js",
+    "seed": "node scripts/seed.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "keywords": [
+    "api",
+    "esportes",
+    "loja"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0"
+  }
+}
